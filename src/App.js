@@ -13,9 +13,7 @@ function App() {
     
     <Home/>
   
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-    <br/><br/><br/>
-    <Footer/>
+    <Footer className="footStyle"/>
    
     
     </>

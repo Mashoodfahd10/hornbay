@@ -14,7 +14,9 @@
   }
 }
 
-
+.footStyle{
+  
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -86,28 +88,6 @@ h4{
 
 input[type=text]:focus {
   width: 100%;
-}
-.new{
-  height:90px;
-  width:86px;
-  margin-left: 180px;
-  
-}
-.new2{
-  height:90px;
-  width:130px;
-  margin-left: 210px;
-}
-.new3{
-  height:90px;
-  width:90px;
-  margin-left: 220px;
-}
-.new4{
-  height:90px;
-  width:72px;
-  margin-left: 230px;
-
 }
 .fahd{
   text-align: center;
