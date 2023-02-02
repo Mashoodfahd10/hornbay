@@ -1,0 +1,133 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.jumbotron{
+  background-image:url('https://www.hornbayengineering.com/wp-content/uploads/2022/10/banner.jpg') ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:auto;
+  max-width:100%;
+  color: aliceblue;
+  text-align:left;
+  
+}
+.container-xxl {
+  background-image: url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/img2.jpg");
+  background-size:cover;
+  color: aliceblue;
+  text-align:justify;
+  font-family: "Roboto", Sans-serif;
+  font-size: 40px;
+}
+.truck{
+  background-image: url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/img3.jpg");
+  background-size: cover;
+  font-family: "Roboto", Sans-serif;
+  color: white;
+ text-align: justify;
+ height: auto;
+ width: 100%;
+  
+}
+.background{
+  background-image: url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/footer.jpg");
+  background-size: cover;
+  height: auto;
+  width: 100%;
+
+}
+h3{
+  margin-top: 130px;
+}
+h1{
+  color: white;
+  font-family: "Roboto", Sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 75px;
+}
+h2{
+  color: #900850;
+  font-family: "Roboto", Sans-serif;
+  
+
+}
+p{
+  color: aliceblue;
+}
+h4{
+  color: aliceblue;
+}
+
+
+input[type=text]:focus {
+  width: 100%;
+}
+.new{
+  height:90px;
+  width:86px;
+  margin-left: 180px;
+  
+}
+.new2{
+  height:90px;
+  width:130px;
+  margin-left: 210px;
+}
+.new3{
+  height:90px;
+  width:90px;
+  margin-left: 220px;
+}
+.new4{
+  height:90px;
+  width:72px;
+  margin-left: 230px;
+
+}
+.fahd{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+
+
