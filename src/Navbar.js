@@ -1,7 +1,8 @@
 import React from 'react'
 import './App.css';
 
-export default function Navbar(props) {
+
+export default function Navbar() {
   
     return (
       <>
@@ -13,7 +14,7 @@ export default function Navbar(props) {
     
         
 <nav 
-className="navbar navbar-expand-lg navbar-dark bg-dark">
+className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
             <img src='https://www.hornbayengineering.com/wp-content/uploads/2022/10/Logo-1.png' alt='logo'></img>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -23,15 +24,15 @@ className="navbar navbar-expand-lg navbar-dark bg-dark">
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/">Home</a>
+          <a className="nav-link active"  href="/">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">About</a>
+          <a className="nav-link" href="/about">About</a>
         </li> <li className="nav-item">
-          <a className="nav-link" href="/">Aphma</a>
+          <a className="nav-link" href="/Aphma">Aphma</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/">Products</a>
+          <a className="nav-link" href="/product">Product</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/">Wholesale</a>
@@ -39,7 +40,7 @@ className="navbar navbar-expand-lg navbar-dark bg-dark">
         <li className="nav-item">
           <a className="nav-link" href="/">Resources</a>
         </li> <li className="nav-item">
-          <a className="nav-link" href="/">Contact Us</a>
+          <a className="nav-link" href="/contactus">Contact Us</a>
         </li>
         
        
@@ -48,6 +49,10 @@ className="navbar navbar-expand-lg navbar-dark bg-dark">
         <input className="form-control mr-1" type="search" placeholder="Search" aria-label="Search"/>
         <button className="btn btn-outline-danger" type="submit">Search</button>
       </form>
+      <div style={{height:"30px",width:"36px",marginLeft:"35px"}}>
+     <img src="https://www.hornbayengineering.com/wp-content/uploads/2022/10/icon7.png" alt="cart" />
+     
+      </div>
     </div>
   </div>
 </nav>
