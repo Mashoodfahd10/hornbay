@@ -14,17 +14,20 @@ export default class footer extends Component {
       console.log("i am contact");
     };
     return (
-      <div className="background">
-        <div className="container">
+      <>
+        
+      <div className="container-fluid" style={{marginTop:"80px",backgroundImage:`URL("https://www.hornbayengineering.com/wp-content/uploads/2022/10/footer.jpg")`
+    , height:"auto", width:"100%"}}>
+      <div className="container">
+      
           <div className="row">
-            <div className="col-3">
-              <img
+            <div className="col-3" >
+              <img 
                 src="https://www.hornbayengineering.com/wp-content/uploads/2022/10/Logo-1.png"
                 alt="logo"
               ></img>
-              <br />
-              <br />
-              <p>
+              
+              <p style={{marginTop:"20px"}}>
                 <strong>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry’s
@@ -35,9 +38,9 @@ export default class footer extends Component {
           
             <div className="col-3">
               <h4>CATEGORIES</h4>
-              <br />
-              <br />
-              <p>
+              
+              <p style={{marginTop:"10px"}}>
+                <a href="http://localhost:3000/">
                 <button
                   src="https://www.hornbayengineering.com/"
                   type="button"
@@ -45,7 +48,7 @@ export default class footer extends Component {
                   onClick={handleHome}
                 >
                   Home
-                </button>
+                </button></a>
               </p>
               <p>Clearance</p>
 
@@ -63,6 +66,7 @@ export default class footer extends Component {
               </p>
 
               <p>
+             <a href="http://localhost:3000/contactus">
                 <button
                   src="https://www.hornbayengineering.com/contact-us/"
                   type="button"
@@ -70,7 +74,7 @@ export default class footer extends Component {
                   onClick={handleContact}
                 >
                   Contact Us
-                </button>
+                </button></a>
               </p>
 
               <p>Warranty</p>
@@ -96,13 +100,12 @@ export default class footer extends Component {
             </div>
           </div>
         </div>
-        <hr />
-        <div className="fahd">
+        
+        <div className="container" style={{textAlign:"center",fontSize:"30px",fontFamily:"Franklin Gothic Medium"}}>
           <p>Get In Touch</p>
         </div>
-        <br />
-        <br />
-        <br />
+       
+        <div className="container" style={{marginTop:"30px"}}>
         <div className="row">
           <div className="col-4">
             <h4>Pakistan Office:</h4>
@@ -175,21 +178,22 @@ export default class footer extends Component {
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 428, Kingdom of Bahrain
             </p>
+
           </div>
-          <br />
-          <br /> <br />
-          <br /> <br />
-          <br />
-          <div className="container">
-            <p style={{ textAlign: "center" }}>
+          </div>
+          
+          <div className="container" style={{ textAlign: "center",marginTop:"20px" }}>
+            <p >
               Copyright © 2023
-              <a href="https://www.hornbayengineering.com/">
+              <a href="http://localhost:3000/">
                 Hornbay Engineering
               </a>
             </p>
           </div>
         </div>
-      </div>
+        </div>
+      
+      </>
     );
   }
 }

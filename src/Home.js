@@ -9,12 +9,7 @@ export default class Home extends Component {
     };
 
     let handleShopPage = () => {
-      console.log("i am shop button")
-     
-
-     
-
-
+      console.log("i am shop button");
     };
 
     let handleQuote = () => {
@@ -23,7 +18,13 @@ export default class Home extends Component {
     return (
       <div>
         <div className="container-xxl">
-          <div className="jumbotron">
+          <div
+            className="jumbotron"
+            style={{
+              backgroundImage: `url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/banner.jpg")`,
+              color: "aliceblue",maxHeight:"auto",maxWidth:"100%"
+            }}
+          >
             <h3 style={{ marginLeft: "150px" }}>
               <strong>Hornbay Engineering</strong>
             </h3>
@@ -40,46 +41,54 @@ export default class Home extends Component {
               </strong>
             </h4>
             <br />
-            <div className="container"style={{ marginLeft: "150px", marginTop:"-40px" }}>
-           <a href="http://localhost:3000/contactus">
-            <button
-              type="button"
-              className="btn btn-outline-danger"
-              onClick={handleNextPage}
+            <div
+              className="container"
+              style={{ marginLeft: "150px", marginTop: "40px" }}
             >
-              Get a Free Quote
-            </button></a>
+              <a href="http://localhost:3000/contactus">
+                <button
+                  type="button"
+                  className="btn btn-outline-danger"
+                  onClick={handleNextPage}
+                >
+                  Get a Free Quote
+                </button>
+              </a>
 
-          <a  href="http://localhost:3000/product"         >
-            <button
-              type="button" id="demo"
-              className="btn btn-danger ml-4"
-              onClick={handleShopPage} >
-              Shop Now
-            </button>
-            </a>
+              <a href="http://localhost:3000/product">
+                <button
+                  type="button"
+                  id="demo"
+                  className="btn btn-danger ml-4"
+                  onClick={handleShopPage}
+                >
+                  Shop Now
+                </button>
+              </a>
             </div>
           </div>
         </div>
 
-        
-        <div className="container-fluid text-center color-black">
+        <div className="container-fluid text-center ">
           <h2 style={{ color: "#900850" }}>BEST SELLERS PRODUCTS</h2>
         </div>
-        <div className="container-xxl">
+        <div className="container-fluid" style={{backgroundImage:`url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/img2.jpg")`,
+             color:"aliceblue", fontSize:"40px",fontFamily:"sans-serif" ,backgroundSize:"cover"  }}>
           {/*made nav under truck image*/}
           <p style={{ textAlign: "center" }}>
             GET AN INSTANT QUOTE
             <br />
             FOR WHOLESALE ORDERS
             <br />
-            <button
-              type="button"
-              className="btn btn-danger mx-4"
-              onClick={handleQuote}
-            >
-              Get a Quote
-            </button>{" "}
+            <a href="http://localhost:3000/contactus">
+              <button
+                type="button"
+                className="btn btn-danger mx-4"
+                onClick={handleQuote}
+              >
+                Get a Quote
+              </button>
+            </a>{" "}
           </p>
         </div>
 
@@ -151,22 +160,31 @@ export default class Home extends Component {
         <br />
         <br />
 
-      
-            
-            
-            
         <div className="truck text-left">
-          <h3 style={{color:"aliceblue",marginLeft:"200px", fontSize:"40px"}}>
+          <h3
+            style={{
+              color: "aliceblue",
+              marginLeft: "200px",
+              fontSize: "40px",
+            }}
+          >
             <strong>
-              WE ARE PIONEERS,
-               PRODUCT <br /> SPECIFICATION
+              WE ARE PIONEERS, PRODUCT <br /> SPECIFICATION
             </strong>
           </h3>
           <br />
-          <p style={{color:"aliceblue",marginLeft:"200px",fontSize:"30px"}}>Trailer/truck/SUVs compatible like ford, DAF, etc.</p>
+          <p
+            style={{
+              color: "aliceblue",
+              marginLeft: "200px",
+              fontSize: "30px",
+            }}
+          >
+            Trailer/truck/SUVs compatible like ford, DAF, etc.
+          </p>
           <br />
           <br />
-          <p  style={{color:"aliceblue",marginLeft:"200px"}}>
+          <p style={{ color: "aliceblue", marginLeft: "200px" }}>
             <strong>
               Lorem Ipsum is simply dummy text of the printing and typesetting{" "}
               <br />

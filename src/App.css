@@ -24,24 +24,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.jumbotron{
-  background-image:url('https://www.hornbayengineering.com/wp-content/uploads/2022/10/banner.jpg') ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height:auto;
-  max-width:100%;
-  color: aliceblue;
-  text-align:left;
-  
-}
-.container-xxl {
-  background-image: url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/img2.jpg");
-  background-size:cover;
-  color: aliceblue;
-  text-align:justify;
-  font-family: "Roboto", Sans-serif;
-  font-size: 40px;
-}
+
 .truck{
   background-image: url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/img3.jpg");
  background-size: auto;
@@ -59,14 +42,10 @@
   text-align:center;
  
 }
-.background{
-  background-image: url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/footer.jpg");
-  background-size: cover;
-  height: auto;
-  width: 100%;
-  margin-top: 80px;
 
-}
+  
+
+
 h3{
   margin-top: 130px;
 }
@@ -90,11 +69,7 @@ h4{
 input[type=text]:focus {
   width: 100%;
 }
-.fahd{
-  text-align: center;
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 
 .App-link {
