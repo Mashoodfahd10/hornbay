@@ -16,34 +16,36 @@ export default class Home extends Component {
       console.log("i am get a Quote but not free");
     };
     return (
-      <div>
-        <div className="container-xxl">
-          <div
-            className="jumbotron"
-            style={{
+      
+        <>
+        
+        <div className="container-fluid"  style={{
               backgroundImage: `url("https://www.hornbayengineering.com/wp-content/uploads/2022/10/banner.jpg")`,
-              color: "aliceblue",maxHeight:"auto",maxWidth:"100%"
-            }}
-          >
-            <h3 style={{ marginLeft: "150px" }}>
+              color: "aliceblue", backgroundSize:"cover"
+            }}>
+          
+            
+          
+            <h4 style={{marginTop:"10px"}} >
               <strong>Hornbay Engineering</strong>
-            </h3>
-            <h1 style={{ marginLeft: "150px" }}>
+            </h4>
+            <h1 style={{marginTop:"120px"}}>
               UNIVERSAL SPARE
               <br /> TRAIN HORN KIT
             </h1>
             <br />
-            <h4 style={{ marginLeft: "150px" }}>
+            <h4 >
               <strong>
                 fits where the spare tire was choose between only, onboard
                 <br />
                 air or train horns
               </strong>
             </h4>
+            
             <br />
             <div
-              className="container"
-              style={{ marginLeft: "150px", marginTop: "40px" }}
+              className="container-fluid"
+              style={{  marginTop: "20px" }}
             >
               <a href="http://localhost:3000/contactus">
                 <button
@@ -65,9 +67,11 @@ export default class Home extends Component {
                   Shop Now
                 </button>
               </a>
-            </div>
+
+           
           </div>
         </div>
+       
 
         <div className="container-fluid text-center ">
           <h2 style={{ color: "#900850" }}>BEST SELLERS PRODUCTS</h2>
@@ -265,7 +269,8 @@ export default class Home extends Component {
             </div>
           </div>
         </div>
-      </div>
+        
+      </>
     );
   }
 }
